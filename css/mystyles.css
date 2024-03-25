@@ -1,6 +1,9 @@
 .countdown-timer {
-    width: 100%;
+    width: 95%;
     height: 500px;
+	justify-content: center;
+    justify-items: center;
+    align-items: center;
     background-image: url("../img/timer-bg.jpeg");
     background-position: center;
     background-size: cover;
@@ -10,14 +13,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #ed2d90;
+    color: #FEFCFF;
     height: 400px
 }
 
 .countdown-clock div {
     flex-basis: 100px; 
     font-style: italic;
-    color: #ed2d90;
+    color: #FEFCFF;
 
     
 }
@@ -25,7 +28,7 @@
 .countdown-clock div p {
     font-size: 60px;
     margin-bottom: -14px;
-    color: #ed2d90;
+    color: #FEFCFF;
     font-family: 'Times New Roman', Times, serif;
         
 }
@@ -127,6 +130,7 @@
     padding-bottom: 70%;
     font-family: cursive;
     font-size: 70px;
+	color: #FF8674;
     /* animation: fadeIn 3s forwards; */
     animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
